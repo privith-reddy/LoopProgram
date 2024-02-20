@@ -1,0 +1,21 @@
+package com.loops;
+
+public class ForEachOne
+{
+
+	public static void main(String[] args) 
+	{
+		/*int[] a = {10,20,30,40,50};
+		for(int i : a) 
+		{
+			System.out.println(i);
+			
+		}*/
+		boolean[] b = {true ,false, false ,true};
+		for (boolean i : b) 
+		{
+			System.out.println(i);
+		}
+
+	}
+}
